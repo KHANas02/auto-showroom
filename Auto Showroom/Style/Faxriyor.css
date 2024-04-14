@@ -1,0 +1,104 @@
+.carma {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.carma h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.carma .step {
+    width: 1200px;
+    height: 600px;
+    
+    display: flex;
+    
+    gap: 30px;
+}
+h2 {
+    color: #150D2CE0;
+}
+.first-step {
+    width: 400px;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.first-step .first-step-word {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+p {
+    color: #150D2CE0;
+}
+.reserve {
+    font-size: 20px;
+    color: #150D2CE0;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+}
+.read-more button {
+    width: 100px;
+    height: 30px;
+    background-color: #332E69;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.first-step img {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #28244B;
+    margin-bottom: 15px;
+}
+
+.carma .step .second-step{
+    width: 400px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.second-step .second-step-word {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.second-step img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.carma .step .third-step {
+    width: 400px;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.third-step .third-step-word {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.third-step img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,174 @@
+.section_six {
+    width: 100%;
+    height: 680px;
+    background-color: rgba(16, 11, 52, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+  }
+  .section_six .six_heading {
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+  }
+  .section_six .section_six_main {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section_six .section_six_main .six_article_one {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 5px;
+    background-color: white;
+  }
+  .section_six .section_six_main .six_article_one .article_one_main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgba(21, 13, 44, 0.88);
+    padding: 15px;
+  }
+  .section_six .section_six_main .six_article_one .article_one_main h1 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .section_six .section_six_main .six_article_one .article_one_main p {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .section_six .section_six_main .six_article_one .article_one_minor p {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .section_six .section_six_main .six_article_one .article_one_minor {
+    display: flex;
+    width: 95%;
+    height: 120px;
+    font-size: 18px;
+    background-color: rgba(206, 216, 221, 1);
+    text-align: left;
+    gap: 10px;
+    border-radius: 10px;
+    color: rgba(21, 13, 44, 0.88);
+    padding: 10px;
+  }
+  .section_six .section_six_main .six_article_one img {
+    width: 100px;
+    height: 100px;
+  }
+  .section_six .section_six_main .six_article_one .article_one_minor img {
+    width: 45px;
+    height: 45px;
+  }
+  .section_six .section_six_main .six_article_one a {
+    padding: 12px 200px;
+    background-color: rgba(51, 46, 105, 1);
+    color: white;
+    border-radius: 8px;
+  }
+  .section_six .section_six_main .six_article_two {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_main {
+    width: 100%;
+    height: 73%;
+    background-color: white;
+    color: rgba(21, 13, 44, 0.88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 5px;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_main img {
+    width: 100px;
+    height: 100px;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_main h1 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_main p {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .section_six
+    .section_six_main
+    .six_article_two
+    .s_a_two_main
+    .s_a_two_main_part {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+  .section_six
+    .section_six_main
+    .six_article_two
+    .s_a_two_main
+    .s_a_two_main_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section_six
+    .section_six_main
+    .six_article_two
+    .s_a_two_main
+    .s_a_two_main_card
+    p {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .section_six
+    .section_six_main
+    .six_article_two
+    .s_a_two_main
+    .s_a_two_main_card
+    img {
+    width: 110px;
+    height: 35px;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_minor {
+    width: 100%;
+    height: 24%;
+    background-color: rgba(51, 46, 105, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px 5px;
+    padding: 10px 30px;
+    color: white;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_minor h1 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .section_six .section_six_main .six_article_two .s_a_two_minorp {
+    font-size: 17px;
+    font-weight: 500;
+  }

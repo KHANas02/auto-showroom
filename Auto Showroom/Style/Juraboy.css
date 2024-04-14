@@ -1,0 +1,133 @@
+.section1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("https://s3-alpha-sig.figma.com/img/8a89/5652/1f8e6c29cf9c8f51c20cad502838ac28?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R5sPeVPO-XccxBL7xb8Duu3Tf4B0sawN2bky8jzgkH0RDGDbtuwGVQQy4370eDzVZOhPenJBxTOP6USAa7TOWUR36kl9tm9yFmKf95hlxzI17bbTMrx1N8j6cwmv32UdKj8ShgLbbGNqTpGkh5fl1yjNqVezHXjSfn9Zk~Fsp4IMtdk4IHHsPrtrh~r7LW~x9YwkzaLFWLbzLvu5s6RHqgr2FFdffrxl370VbGoBnAvmPxgmCQZgjF1RE8gU3c3iKVOcUN1WdKbZ30bnDPCINHI8nXAUK-6j1ZocPSELD6KThCOr63kOO22RcRgRjw1r7K2t7kKPU1Bfq8WDQdzHkQ__");
+    background-size: cover;
+    background-position: 50%;
+    background-position-y: 80%;
+}
+
+.section1 .nav {
+    width: 100%;
+    height: 90px;
+    padding: 0px 120px;
+    display: flex;
+
+    border-bottom: 2px solid #DDB3A6;
+}
+
+.section1 .nav .logo_search {
+    width: 40%;
+    height: 90px;
+    display: flex;
+    position: relative;
+}
+
+.section1 .nav .logo {
+    width: 30%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.385);
+}
+
+.section1 .nav .search {
+    width: 70%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .nav .search a {
+    position: absolute;
+    right: 7%;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.section1 .nav .logo_search .search .sea {
+    width: 90%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.section1 .nav .about {
+    width: 40%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .nav .about .textnav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .nav .about .textnav a {
+    color: white;
+    font-family: sans-serif;
+}
+
+.section1 .nav .contact {
+    width: 20%;
+    height: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.section1 .nav .contact .like {
+    width: 15%;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.section1 .nav .contact .like a i {
+    font-size: 25px;
+}
+
+.section1 .nav .contact .like_account {
+    width: 27%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    border-radius: 32px;
+
+}
+
+.section1 .nav .contact .like_account a i {
+    font-size: 25px;
+}
+
+.section1 .text {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 9%;
+    top: 22%;
+}
+
+.section1 .text h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #2E2039;
+}
+
+.section1 .about .textnav:hover {
+    border-bottom: 4px solid white;
+}
